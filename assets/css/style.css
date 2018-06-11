@@ -1,0 +1,82 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #ededed;
+	color: #ccc;
+	font-family: arial, sans-serif;
+	font-size: 16px;
+	background-image: url("../images/bg.jpg");
+	background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 800px;
+}
+
+h1 {
+	font-family: 'Russo One', sans-serif;
+	font-size: 70px;
+	font-weight: bolder;
+}
+
+.container {
+	width: 1024px;
+}
+
+.character, .enemy, .defender {
+	display: inline-block;
+	width: 180px;
+	margin-right: 2px;
+	cursor: pointer;
+	font-size: 12px;
+	color: #ccc;
+	background-color: rgba(0,0,0,0.6);
+	border: 1px solid #999;
+	
+}
+
+#characters {
+	height: 220px;
+}
+
+.character p {
+	margin: 0 0 0 6px;
+	text-align: left;
+}
+
+.container img{
+	width: 100%;
+	margin-bottom: 6px;
+}
+
+#fightingZone {
+	padding-top:60px;
+}
+
+#msg{
+	color: white;
+	margin-top: 20px;
+	background-color: rgba(0, 0, 0, .5);
+    font-size: 14px;
+    text-align: left;
+}
+
+#msg p {
+	padding:10px;
+}
+
+#restart {
+	display: none;
+}
+
+#attack {
+	display: none;
+}
+
+.progress {
+	height: 14px;
+	width: 100%;
+	margin-bottom: 0;
+}
+
+.progress-bar { 
+	width:100%;
+}
